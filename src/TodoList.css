@@ -1,0 +1,105 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFDD0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 30px;
+  }
+  
+  .input-group .form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #333;
+  }
+  
+  .input-group-append .btn {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background-color: #333;
+  }
+  
+  .input-group-append .btn:hover {
+    background-color: #222;
+  }
+  
+  .button-group {
+    margin-bottom: 20px;
+  }
+  
+  .button-group .btn {
+    margin-right: 10px;
+  }
+  
+  .list-group {
+    margin-bottom: 30px;
+  }
+  
+  .list-group-item {
+    position: relative;
+    padding-right: 70px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .list-group-item.completed {
+    text-decoration: line-through;
+    color: #aaa;
+    background: linear-gradient(90deg, #5eff5e 0%, #63e6be 100%);
+  }
+  
+  .list-group-item .btn-delete {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/flat-pro-basic-set-1-1/32/cross-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .list-group-item .btn-delete:hover {
+    background-color: #ff5c5c;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .todo-text {
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-right: 10px;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .image-group {
+    display: none;
+  }
+  
